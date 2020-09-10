@@ -1,6 +1,6 @@
 import 'dart:ui';
 
-import 'package:Scanner/scanner.dart';
+import 'package:scanner/scanner.dart';
 import 'package:flutter/material.dart';
 
 void main() {
