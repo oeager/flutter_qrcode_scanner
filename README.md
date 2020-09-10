@@ -1,15 +1,23 @@
 # Scanner
 
-A new flutter plugin project.
+A QR code/bar code scanning plugin, supports android and ios platforms
 
-## Getting Started
+## Config
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+### Android
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+nothing.
 
+### iOS
+
+add to info.plist
+```
+    <key>io.flutter.embedded_views_preview</key>
+	<true/>
+	<key>NSCameraUsageDescription</key>
+    <string>Can we access your camera in order to scan barcodes?</string>
+```
+
+## Get Started
+
+see example for details.Support flashlight,preview,image..

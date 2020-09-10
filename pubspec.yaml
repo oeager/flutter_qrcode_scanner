@@ -1,8 +1,8 @@
 name: Scanner
 description: A new flutter plugin project.
-version: 0.0.1
-author:
-homepage:
+version: 1.0.0
+author: oeager
+homepage: https://github.com/oeager/flutter_qrcode_scanner
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
