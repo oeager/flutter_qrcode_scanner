@@ -1,11 +1,12 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:scanner/src/ios-decoration.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
+
+import 'src/ios-decoration.dart';
 
 class ScanResult {
   static const status_recognize_failed = 0;

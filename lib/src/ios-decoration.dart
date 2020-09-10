@@ -1,10 +1,11 @@
 import 'dart:async';
 import 'dart:ui';
 
-import 'package:scanner/scanner.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
+
+import '../scanner.dart';
 
 class CuperScanController extends ScannerController {
   final ValueNotifier<bool> modeNotifier;
