@@ -1,6 +1,6 @@
 name: simple_scanner
 description: A new flutter plugin project.
-version: 1.0.0
+version: 1.0.1+2
 author: oeager
 homepage: https://github.com/oeager/flutter_qrcode_scanner
 

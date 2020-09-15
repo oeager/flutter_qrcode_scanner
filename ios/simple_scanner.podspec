@@ -3,7 +3,7 @@
 # Run `pod lib lint Scanner.podspec' to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'Scanner'
+  s.name             = 'simple_scanner'
   s.version          = '0.0.1'
   s.summary          = 'A new flutter plugin project.'
   s.description      = <<-DESC
